@@ -1,5 +1,73 @@
+body{
+	background: #092327;
+}
+
 .calculatorButtons{
     display:inline-grid;
     grid-template-columns: 1fr 1fr 1fr;
+    border: 1px lightgrey solid;
+   // background: #8d7a76;
+    
+   
+}
+.calculator{
+    text-align: center;
+    
 
+}
+.buttons{
+    width: 71.75px;
+    height: 50px;
+    margin-left: 5px;
+	  margin-right: 5px;
+	  margin-top: 10px;
+	  margin-bottom: 5px;
+}
+
+
+.buttons {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.buttons:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.buttons:active {
+	position:relative;
+	top:1px;
+}
+
+
+.display{
+		background-color:#768d87;
+    border: lightgrey 1px solid;
+    border-bottom: none;
+    border-radius: 5px 5px 0px 0px;
+    width: 240px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+	  padding-top: 10px;
+	  color: white;
+	  text-align: right;
+	  padding-right: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.header{
+    height: 200px;
 }
